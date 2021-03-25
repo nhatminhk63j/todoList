@@ -1,0 +1,105 @@
+.todoapp {
+  min-width: 500px;
+  width: 80%;
+  min-height: 80vh;
+  border: 1px solid black;
+  margin: 10vh auto;
+  display: flex;
+}
+
+.new-task {
+  flex: 45%;
+  border-right: 1px solid black;
+  padding: 5%;
+}
+.todo-list {
+  flex: 55%;
+  padding: 5%;
+}
+
+.todo-title {
+  font-size: 30px;
+  text-align: center;
+}
+
+.todo-complete {
+  background-color: cornflowerblue;
+}
+
+.todo-view {
+  border: 1px solid rgb(118, 118, 118);
+  margin-top: 5px;
+  border-radius: 2px;
+  padding: 15px;
+}
+
+.input-todo-title {
+  width: 100%;
+  border: 1px solid rgb(118, 118, 118);
+  height: 24px;
+}
+.todo-detail-label {
+  margin: 20px 0 5px;
+}
+
+.desscription-todo {
+  width: 100%;
+  height: 100px;
+}
+.due-date-todo {
+  height: 24px;
+  width: 100%;
+  border: 1px solid rgb(118, 118, 118);
+}
+.priority-todo {
+  width: 100%;
+  height: 26px;
+}
+.todo-display-flex {
+  display: flex;
+}
+
+.todo-width-100 {
+  width: 100%;
+}
+
+.todo-select-box {
+  flex-grow: 1;
+}
+
+.todo-detail-button {
+  height: 24px;
+  width: 100%;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.search-todo {
+  text-align: 100%;
+  padding: 0 5%;
+}
+
+.search-input {
+  width: 100%;
+  height: 24px;
+  border: 1px solid rgb(118, 118, 118);
+}
+.button-todo {
+  margin-top: 10px;
+  text-align: end;
+  padding-right: 10px;
+}
+.done-todo {
+  background-color: burlywood;
+}
+button {
+  margin: 0 3px;
+}
+@media only screen and (max-width: 768px) {
+  .new-task {
+    width: 100%;
+  }
+  .todo-list {
+    width: 100%;
+  }
+}
